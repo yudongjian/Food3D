@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频与展品展示页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .exhibit {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .exhibit-item {
+            width: 48%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .exhibit-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <h1>欢迎来到我的视频与展品展示页面</h1>
+    <p>在这里，你可以观看我最新的视频，同时欣赏展品。</p>
+    
+    <h2>视频标题</h2>
+    <video controls>
+        <source src="你的视屏地址.mp4" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+    
+    <p>视频描述：这是一个关于XX的精彩视频，希望你喜欢！</p>
+
+    <h2>展品展示</h2>
+    <div class="exhibit">
+        <div class="exhibit-item">
+            <img src="展品1的图片地址.jpg" alt="展品1">
+            <p>展品1描述</p>
+        </div>
+        <div class="exhibit-item">
+            <img src="展品2的图片地址.jpg" alt="展品2">
+            <p>展品2描述</p>
+        </div>
+        <div class="exhibit-item">
+            <img src="展品3的图片地址.jpg" alt="展品3">
+            <p>展品3描述</p>
+        </div>
+        <div class="exhibit-item">
+            <img src="展品4的图片地址.jpg" alt="展品4">
+            <p>展品4描述</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
