@@ -40,13 +40,56 @@
         width: 100%; /* 确保图片填充展品项 */
         border-radius: 8px; /* 可选，添加圆角效果 */
     }
+
+    .line {
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* 每个链接之间的间距 */
+        margin-bottom: 10px; /* 行与行之间的间距 */
+    }
+    h5 span {
+            color: #0066cc; /* 改变特定文本颜色 */
+            font-weight: bold; /* 加粗 */
+        }
+
     </style>
+
+
 </head>
 <body>
 
 
 <div class="content">
+
+
+
     <h1>Food3D: Generating 3D Food Images Using a Dual-Branch Diffusion Model</h1>
+
+    <div class="line">
+        <a href="" target="_blank" style="text-decoration: none;"> Dongjian Yu ①</a>
+
+    <!-- 跳转链接 -->
+    <a href="http://123.57.42.89/foodcomputing/weiqingmin/home.html" target="_blank">Wenqing Min ②</a>
+    <a href="http://www.sei.ynu.edu.cn/info/1023/1780.htm" target="_blank">Xin Jin ①</a>
+    </div>
+    <h2></h2>
+     <div class="line">
+    <a href="http://www.sei.ynu.edu.cn/info/1023/1903.htm" target="_blank">Qiang Jiang ①</a>
+    <a href="http://www.sei.ynu.edu.cn/info/1023/1397.htm" target="_blank">Shaowen Yao ①</a>
+    <a href="https://people.ucas.edu.cn/~0010356?language=en" target="_blank">Shuqiang Jiang ②</a>
+    </div>
+    <h3></h3>
+    <h3></h3>
+    <div class="line">
+
+            <span style="text-align: center;">①</span> Yunnan University<br><br>
+<!--        </h5>-->
+<!--    </div>-->
+<!--        <div class="line">-->
+<!--        <h5>-->
+            <span>②</span> Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences
+    </div>
+
     <h3>Abstract</h3>
     <p>  Realistic 3D food creation is essential for nutritional  assessment, advertising, and other applications. The existing text-to-3D models initialize a 3D representation and use a text-to-
 image model as supervision to render it, ultimately obtaining the final 3D representation. However, these models has two main
@@ -127,7 +170,7 @@ shape accuracy, and realism.
     </video>
 
         <video controls>
-        <source src="./asset/fan3d/kungbaochicken/kungbaochicken.mp4" type="video/mp4">
+        <source src="./asset/fan3d/kungbaochicken/it5000-test.mp4" type="video/mp4">
         您的浏览器不支持视频播放。
     </video>
 
@@ -184,7 +227,7 @@ shape accuracy, and realism.
     </video>
 
         <video controls>
-        <source src="./asset/fan3d/potato/potato.mp4" type="video/mp4">
+        <source src="./asset/fan3d/potato/it5000-test.mp4" type="video/mp4">
         您的浏览器不支持视频播放。
     </video>
 
