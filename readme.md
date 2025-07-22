@@ -36,7 +36,7 @@ conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=
 pip install plyfile tqdm  
 pip install submodules/diff-gaussian-rasterization
 ```
-# If error occurs, try:  
+#### If error occurs, try:  
 sudo apt-get install libglm-dev  
 pip install submodules/simple-knn
 
