@@ -21,39 +21,49 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH
 ```
 
 ## ⚙️ Installation Instructions
-```bash
+
 ### 1. Create and activate conda environment
+```bash
 conda create -n yudongjian_23_LucidDreamer python=3.10 -y  
 conda activate yudongjian_23_LucidDreamer
-
+```
 ### 2. Install PyTorch with CUDA 12.1
+```bash
 conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=12.1 -c pytorch -c nvidia -y
-
+```
 ### 3. Install Python dependencies
+```bash
 pip install plyfile tqdm  
-pip install submodules/diff-gaussian-rasterization  
+pip install submodules/diff-gaussian-rasterization
+```
 # If error occurs, try:  
 sudo apt-get install libglm-dev  
 pip install submodules/simple-knn
 
 ### 4. Install xformers for CUDA 12.1
+```bash
 pip3 install -U xformers==0.0.25.post1 --index-url https://download.pytorch.org/whl/cu121
-
+```
 ### 5. Install transformers and diffusers
+```bash
 conda install transformers -y  
 conda install diffusers==0.18.2 -y
+```
 
 ### 6. Install local point-e-main package
+```bash
 cd ./point-e-main/  
 python setup.py install
+```
 
 ### 7. Additional dependencies
+```
 pip install imageio==2.19.3  
 pip install imageio-ffmpeg==0.4.7  
 pip install accelerate  
 pip install git+https://github.com/openai/CLIP.git  
 pip install numpy==1.24.1  
+```
 
----
 
 
