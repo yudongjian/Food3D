@@ -18,9 +18,10 @@ If you have multiple CUDA versions installed, you can temporarily switch CUDA ve
 ```bash
 export PATH=/usr/local/cuda-12.1/bin:$PATH  
 export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH
----
-```bash
+```
+
 ## ⚙️ Installation Instructions
+```bash
 ### 1. Create and activate conda environment
 conda create -n yudongjian_23_LucidDreamer python=3.10 -y  
 conda activate yudongjian_23_LucidDreamer
