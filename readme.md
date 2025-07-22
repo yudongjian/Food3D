@@ -16,9 +16,10 @@
 If you have multiple CUDA versions installed, you can temporarily switch CUDA version by setting the environment variable before running your program:
 
 ```bash
-export CUDA_VISIBLE_DEVICES=0  # Use GPU 0
-export CUDA_VISIBLE_DEVICES=1  # Use GPU 1
+export PATH=/usr/local/cuda-12.1/bin:$PATH  
+export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH
 ---
+```bash
 ## ⚙️ Installation Instructions
 ### 1. Create and activate conda environment
 conda create -n yudongjian_23_LucidDreamer python=3.10 -y  
