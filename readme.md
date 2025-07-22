@@ -37,9 +37,10 @@ pip install plyfile tqdm
 pip install submodules/diff-gaussian-rasterization
 ```
 #### If error occurs, try:  
+```bash
 sudo apt-get install libglm-dev  
 pip install submodules/simple-knn
-
+```
 ### 4. Install xformers for CUDA 12.1
 ```bash
 pip3 install -U xformers==0.0.25.post1 --index-url https://download.pytorch.org/whl/cu121
