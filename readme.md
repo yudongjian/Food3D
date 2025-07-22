@@ -24,8 +24,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH
 
 ### 1. Create and activate conda environment
 ```bash
-conda create -n yudongjian_23_LucidDreamer python=3.10 -y  
-conda activate yudongjian_23_LucidDreamer
+conda create -n Food3D python=3.10 -y  
+conda activate Food3D
 ```
 ### 2. Install PyTorch with CUDA 12.1
 ```bash
