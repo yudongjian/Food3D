@@ -6,7 +6,7 @@
 - CUDA version: 12.1 (pytorch-cuda=12.1)  
 ## 🖥️ Hardware Information
 
-- GPU: NVIDIA A100 40GB  or  NVIDIA RTX 3090 GPU 24 GB
+- GPU: NVIDIA A100 40GB 
 - CPU: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz  
 
 ---
