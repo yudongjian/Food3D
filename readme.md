@@ -1,4 +1,9 @@
 
+
+
+## ⚡ Paper Status
+**This work has been accepted by 2025 IEEE Transactions on Image Processing (2025 TIP).**
+
 ## 🚀 Required Environment
 - Operating System: Ubuntu 22.04.2 LTS  
 - Python version: 3.10  
