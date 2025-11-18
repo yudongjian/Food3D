@@ -1,5 +1,7 @@
 
-
+Dongjian Yu; Weiqing Min; Xin Jin; Qian Jiang; Shaowen Yao; Shuqiang Jiang
+All Authors
+[![ 🧾 Paper Information]([https://www.sciencedirect.com/science/article/abs/pii/S1566253525004282](https://ieeexplore.ieee.org/document/11230236))]
 
 ## ⚡ Paper Status
 **This work has been accepted by 2025 IEEE Transactions on Image Processing (2025 TIP).**
@@ -77,6 +79,19 @@ pip install imageio-ffmpeg==0.4.7
 pip install accelerate  
 pip install git+https://github.com/openai/CLIP.git  
 pip install numpy==1.24.1  
+```
+```bash
+@ARTICLE{11230236,
+  author={Yu, Dongjian and Min, Weiqing and Jin, Xin and Jiang, Qian and Yao, Shaowen and Jiang, Shuqiang},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Food3D: Text-Driven Customizable 3D Food Generation With Gaussian Splatting}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={7290-7304},
+  keywords={Three-dimensional displays;Solid modeling;Text to image;Visualization;Diffusion models;Accuracy;Shape;Optimization;IEEE Senior Members;Geometry;Deep learning;diffusion model;3D food generation;food computing;pre-trained model},
+  doi={10.1109/TIP.2025.3627408}}
+
 ```
 
 
